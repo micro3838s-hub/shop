@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 223.74 223.74">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: url(#_新規パターンスウォッチ_3);
+      }
+
+      .cls-3 {
+        fill: #ebed8c;
+      }
+
+      .cls-4 {
+        fill: #80b8df;
+      }
+    </style>
+    <pattern id="_新規パターンスウォッチ_3" data-name="新規パターンスウォッチ 3" x="0" y="0" width="223.74" height="223.74" patternTransform="translate(-76.2479 -4087.9037)" patternUnits="userSpaceOnUse" viewBox="0 0 223.74 223.74">
+      <g>
+        <rect class="cls-1" width="223.74" height="223.74"/>
+        <rect class="cls-4" x="0" width="223.74" height="223.74"/>
+        <g>
+          <rect class="cls-3" x="64.9" width="6.57" height="223.74"/>
+          <rect class="cls-3" x="152.27" width="6.57" height="223.74"/>
+          <polygon class="cls-3" points="223.74 108.59 223.74 115.15 0 115.15 0 108.59 223.74 108.59"/>
+          <polygon class="cls-3" points="223.74 192.42 223.74 198.99 0 198.99 0 192.42 223.74 192.42"/>
+          <polygon class="cls-3" points="223.74 24.75 223.74 31.31 0 31.31 0 24.75 223.74 24.75"/>
+        </g>
+      </g>
+    </pattern>
+  </defs>
+  <g id="hoshi">
+    <g>
+      <rect class="cls-2" width="223.74" height="223.74"/>
+      <g>
+        <rect class="cls-2" x="64.9" width="6.57" height="223.74"/>
+        <rect class="cls-2" x="152.27" width="6.57" height="223.74"/>
+        <polygon class="cls-2" points="223.74 108.59 223.74 115.15 0 115.15 0 108.59 223.74 108.59"/>
+        <polygon class="cls-2" points="223.74 192.42 223.74 198.99 0 198.99 0 192.42 223.74 192.42"/>
+        <polygon class="cls-2" points="223.74 24.75 223.74 31.31 0 31.31 0 24.75 223.74 24.75"/>
+      </g>
+    </g>
+  </g>
+</svg>
