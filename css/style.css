@@ -320,7 +320,7 @@ a {
   font-family: "Comfortaa", sans-serif;
   font-weight: 700;
 }
-  font-size: clamp(58px, 17vw, 100px);
+  font-size: clamp(50px, 15vw, 80px);
 
   line-height: 0.95;
 
@@ -331,6 +331,7 @@ a {
   text-shadow:
     4px 4px 0 var(--brown);
 }
+
 
 
 .hero-text {
