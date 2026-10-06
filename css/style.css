@@ -315,24 +315,44 @@ a {
   margin-bottom: 20px;
 }
 
+
+.hero-title-wrap {
+  position: relative;
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.hero-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .hero-title {
-  .hero-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  z-index: 2;
+
   font-family: "Comfortaa", sans-serif;
   font-weight: 700;
-}
-  font-size: clamp(50px, 15vw, 80px);
 
-  line-height: 0.95;
-
-  letter-spacing: -0.03em;
-
-  color: var(--cream);
-
-  text-shadow:
+font-size: clamp(40px, 12vw, 70px);
+line-height: 0.95;
+letter-spacing: -0.03em;
+color: var(--cream);
+text-shadow:
     4px 4px 0 var(--brown);
+
+
+  text-align: center;
+  white-space: nowrap;
+
 }
-
-
 
 .hero-text {
   margin-top: 30px;
