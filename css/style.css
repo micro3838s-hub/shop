@@ -233,6 +233,53 @@ a {
   border-bottom: 1px solid #ddd3c8;
 }
 
+/* =========================
+   MOBILE MENU CLOSE BUTTON
+========================= */
+
+.mobile-menu-close {
+  position: absolute;
+
+  top: 13px;
+  right: 20px;
+
+  width: 42px;
+  height: 42px;
+
+  border: none;
+
+  border-radius: 50%;
+
+  background: var(--yellow);
+
+  color: var(--brown);
+
+  font-family: sans-serif;
+
+  font-size: 30px;
+
+  font-weight: 300;
+
+  line-height: 1;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  z-index: 103;
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease;
+}
+
+.mobile-menu-close:hover {
+  transform: rotate(90deg);
+  background: var(--yellow-dark);
+}
 
 /* =========================
    HERO
@@ -257,7 +304,7 @@ a {
 }
 
 .hero-label {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Quicksand", sans-serif;
 
   font-size: 10px;
 
@@ -269,19 +316,22 @@ a {
 }
 
 .hero-title {
-  font-family: "DM Sans", sans-serif;
-
+  .hero-title {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
+}
   font-size: clamp(58px, 17vw, 100px);
 
-  line-height: 0.88;
+  line-height: 0.95;
 
-  letter-spacing: -0.07em;
+  letter-spacing: -0.03em;
 
   color: var(--cream);
 
   text-shadow:
     4px 4px 0 var(--brown);
 }
+
 
 .hero-text {
   margin-top: 30px;

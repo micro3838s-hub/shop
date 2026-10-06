@@ -44,7 +44,7 @@ revealElements.forEach((element) => {
 
 
 /* =========================
-   MENU BUTTON
+   MOBILE MENU
 ========================= */
 
 const menuButton =
@@ -53,55 +53,48 @@ const menuButton =
 const mobileMenu =
   document.querySelector(".mobile-menu");
 
+const mobileMenuClose =
+  document.querySelector(".mobile-menu-close");
+
 const mobileLinks =
   document.querySelectorAll(
     ".mobile-menu a"
   );
 
 
-menuButton.addEventListener(
-  "click",
-  () => {
+/* =========================
+   OPEN MENU
+========================= */
 
-    const isOpen =
-      mobileMenu.classList.contains(
-        "active"
-      );
+menuButton.addEventListener("click", () => {
 
-    mobileMenu.classList.toggle(
-      "active"
-    );
+  mobileMenu.classList.add("active");
 
-    menuButton.setAttribute(
-      "aria-expanded",
-      !isOpen
-    );
-
-  }
-);
+});
 
 
 /* =========================
-   CLOSE MOBILE MENU
+   CLOSE MENU
+========================= */
+
+mobileMenuClose.addEventListener("click", () => {
+
+  mobileMenu.classList.remove("active");
+
+});
+
+
+/* =========================
+   CLOSE MENU WHEN LINK CLICKED
 ========================= */
 
 mobileLinks.forEach((link) => {
 
-  link.addEventListener(
-    "click",
-    () => {
+  link.addEventListener("click", () => {
 
-      mobileMenu.classList.remove(
-        "active"
-      );
+    mobileMenu.classList.remove("active");
 
-      menuButton.setAttribute(
-        "aria-expanded",
-        "false"
-      );
-
-    }
-  );
+  });
 
 });
 
